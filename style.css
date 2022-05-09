@@ -6,7 +6,15 @@
     justify-content: center;
     align-items: center;
 }
-
+.all{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 400px;
+    /* height: 100vh; */
+    margin: auto auto;
+    background-image: url("calcImage.jpg");
+    background-size: cover;
+}
 button{
     padding: 10px 25px;
     cursor: pointer;
@@ -15,12 +23,6 @@ button{
     box-shadow: 5px black;
 }
 
-.mx-auto{
-    margin: auto;
-}
-.m-w-20{
-    max-width: 30vw;
-}
 
 .button-row{
     padding: 6px 8px;
@@ -42,3 +44,28 @@ input{
     font-size: 23px;
     width: 254px;
 }
+
+
+
+.mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+
+/* 
+  @media screen and (max-width:967px) {
+      .button{
+          width: 2rem;
+      }
+      
+  } */
